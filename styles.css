@@ -51,9 +51,11 @@ header {
     color: white;
     padding: 10px 0 10px 10px;
 }
+
 header img{
     width: 60px;
 }
+
 header ul {
     list-style: none;
     display: grid;
@@ -73,6 +75,7 @@ header li:hover {
     cursor: pointer;
     text-decoration: underline;
 }
+/* Конец блока меню*/
 .info-about-price {
     margin: 15px 150px;
     display: flex;
@@ -80,6 +83,7 @@ header li:hover {
     flex-wrap: nowrap;
     justify-content: center;
 }
+
 .info-about-price .it {
     margin: 15px 15px;
     flex-grow: 1; }
@@ -88,8 +92,24 @@ header li:hover {
 
     font-size: 1.3em;
 }
+
 .name-detail {
     text-align: center;
     font-size: 1.3em;
     font-weight: bold;
+}
+/*Конец блок с инфомацией о технической части автомобиля*/
+.description, .section, footer {
+    margin: 30px 200px;
+}
+.description-1 {
+    font-family: Arial Narrow, sans-serif;
+    font-size: 30px;
+}
+
+.description-2 {
+    font-family: Arial Narrow, sans-serif;
+    margin-top: 20px;
+    font-size: 1.3em;
+    line-height: 1.6em;
 }
