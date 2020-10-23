@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+/*=========================================================================================
+Начало ШоуРум состоит с изображения и надписи на изображении
+ */
+#showroom {
+    /*
+    Положение элемента устанавливается относительно его исходного места
+     */
+    position: relative;
+}
+#showroom img {
+    /*
+    Свойство object-position определяет позицию заполняемого элемента при использовании object-fit
+     */
+    object-position: center;
+    /*
+    Свойство object-fit определяет, как содержимое заменяемого элемента
+    должно заполнять контейнер относительно его высоты и ширины.
+     */
+    object-fit: cover;
+    max-height: 90vh;
+    min-height: 450px;
+    width: 100%;
+}
+#showroom h1{
+    position: absolute;
+    bottom: 90px;
+    left: 90px;
+    color: white;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 108px;
+}
+/*
+Конец ШоуРума
+ ===========================================================================================*/
+header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 50fr;
+    background-color: #282d34;
+    color: white;
+    padding: 10px 0 10px 10px;
+}
+header img{
+    width: 60px;
+}
+header ul {
+    list-style: none;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    height: 100%;
+}
+
+header li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5% 0 5%;
+}
+
+header li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
