@@ -73,3 +73,23 @@ header li:hover {
     cursor: pointer;
     text-decoration: underline;
 }
+.info-about-price {
+    margin: 15px 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.info-about-price .it {
+    margin: 15px 15px;
+    flex-grow: 1; }
+
+.name-id {
+
+    font-size: 1.3em;
+}
+.name-detail {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
