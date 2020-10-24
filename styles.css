@@ -116,7 +116,7 @@ hr {
 }
 /* Конец описания*/
 .scroll-menu{
-    margin: 50px;
+    margin: 30px 30px;
     display: flex;
     overflow-x: auto;
 }
@@ -135,7 +135,7 @@ hr {
 }
 .comp-description li {
     padding-left: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 .comp-description {
     list-style: '-';
@@ -147,7 +147,6 @@ hr {
     font-weight: bold;
     font-size: 1.8em;
 }
-
 .subtitle {
     margin-top: 5px ;
     font-size: 1.8em;
@@ -156,4 +155,21 @@ hr {
 .product img{
     position: center;
     height: 500px;
+}
+.can-be-interesting {
+    margin: 5%;
+}
+
+.can-be-interesting h2 {
+    line-height: 36px;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    clear: both;
+    background: rgb(45, 62, 83);
+    background: linear-gradient(90deg, rgb(45, 62, 83) 0%, rgba(255, 255, 255, 1) 49%, rgb(45, 62, 83) 100%);
+}
+
+.can-be-interesting h2 span {
+    font-weight: 700;
 }
