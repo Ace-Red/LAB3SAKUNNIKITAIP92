@@ -278,3 +278,55 @@ footer hr {
     margin: 20px 100px;
 }
 
+.menu-buttons {
+    position: fixed;
+    right: 32px;
+    top: 50%;
+    bottom: auto;
+    width: auto;
+    z-index: 3;
+}
+
+.stick-button {
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 18px;
+    padding-top: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: #272822;
+    height: 48px;
+    width: 48px;
+    border-radius: 24px;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    transition-delay: 0.2s;
+    overflow: hidden;
+}
+
+.menu-buttons:hover .stick-button {
+    width: 200px;
+}
+
+.movable-sticky-button {
+    display: flex;
+}
+
+.menu-buttons:hover .movable-sticky-button {
+    margin-left: 0;
+}
+
+
+.stick-button img {
+    width: 27px;
+    height: 27px;
+}
+
+.stick-button span {
+    white-space: nowrap;
+    display: block;
+    padding: 10px;
+    width: 150px;
+}
