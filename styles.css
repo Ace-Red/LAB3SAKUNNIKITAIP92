@@ -176,7 +176,7 @@ hr {
 }
 
 .can-be-interesting {
-    margin: 5%;
+    margin: 2%;
 }
 
 .can-be-interesting h2 {
@@ -240,5 +240,41 @@ hr {
     margin-top: 10px;
     line-height: 25px;
     padding: 0 10px 10px 10px;
+}
+footer {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    position: relative;
+    clear: both;
+}
+
+footer nav {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+}
+
+footer a {
+    color: #001e50;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.block-foot {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 29.5%;
+    margin: 10px;
+}
+h3 {
+    orphans: 3;
+    widows: 3;
+    page-break-after: avoid;
+}
+footer hr {
+    margin: 20px 100px;
 }
 
