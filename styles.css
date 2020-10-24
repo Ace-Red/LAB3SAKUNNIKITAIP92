@@ -4,6 +4,7 @@
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
+
 /*=========================================================================================
 Начало ШоуРум состоит с изображения и надписи на изображении
  */
@@ -13,6 +14,7 @@
      */
     position: relative;
 }
+
 #showroom img {
     /*
     Свойство object-position определяет позицию заполняемого элемента при использовании object-fit
@@ -27,7 +29,8 @@
     min-height: 450px;
     width: 100%;
 }
-#showroom h1{
+
+#showroom h1 {
     position: absolute;
     bottom: 90px;
     left: 90px;
@@ -37,6 +40,7 @@
     font-weight: 700;
     line-height: 108px;
 }
+
 /*
 Конец ШоуРума
  ===========================================================================================*/
@@ -52,7 +56,7 @@ header {
     padding: 10px 0 10px 10px;
 }
 
-header img{
+header img {
     width: 60px;
 }
 
@@ -75,6 +79,7 @@ header li:hover {
     cursor: pointer;
     text-decoration: underline;
 }
+
 /* Конец блока меню*/
 .info-about-price {
     margin: 15px 300px;
@@ -86,7 +91,8 @@ header li:hover {
 
 .info-about-price .it {
     margin: 15px 15px;
-    flex-grow: 1; }
+    flex-grow: 1;
+}
 
 .name-id {
 
@@ -98,13 +104,16 @@ header li:hover {
     font-size: 1.3em;
     font-weight: bold;
 }
+
 hr {
     margin: 20px 100px;
 }
+
 /*Конец блок с инфомацией о технической части автомобиля*/
-.description, .section, footer {
+.description, .section {
     margin: 30px 200px;
 }
+
 .description-1 {
     font-size: 30px;
 }
@@ -114,48 +123,58 @@ hr {
     font-size: 1.3em;
     line-height: 1.6em;
 }
+
 /* Конец описания*/
-.scroll-menu{
+.scroll-menu {
     margin: 30px 30px;
     display: flex;
     overflow-x: auto;
 }
-.scroll-menu::-webkit-scrollbar{
+
+.scroll-menu::-webkit-scrollbar {
     width: 0;
 }
-.scroll-menu .product{
+
+.scroll-menu .product {
     display: flex;
     justify-content: space-between;
     margin-right: 250px;
     margin-left: 150px;
 }
+
 .price {
     font-weight: bold;
     font-size: 1.4em;
 }
+
 .comp-description li {
     padding-left: 5px;
     margin-bottom: 20px;
 }
+
 .comp-description {
     list-style: '-';
     padding-left: 15px;
     margin-top: 20px;
     width: 600px;
 }
+
 .name-comp {
     font-weight: bold;
     font-size: 1.8em;
 }
+
 .subtitle {
-    margin-top: 5px ;
+    margin-top: 5px;
     font-size: 1.8em;
     margin-bottom: 10px;
 }
-.product img{
+
+.product img {
     position: center;
     height: 500px;
 }
+
 .can-be-interesting {
     margin: 5%;
 }
@@ -173,10 +192,12 @@ hr {
 .can-be-interesting h2 span {
     font-weight: 700;
 }
+
 /* Начало блока с предложениями*/
-.section-for-grid{
+.section-for-grid {
     margin: 0 200px;
 }
+
 .new-propose-grid {
     margin-top: 50px;
     display: grid;
@@ -184,6 +205,7 @@ hr {
     column-gap: 10px;
     justify-content: space-between;
 }
+
 .item-grid {
     display: flex;
     flex-direction: column;
@@ -192,12 +214,14 @@ hr {
     border-radius: 15px;
     overflow: hidden;
 }
-.img-grid img{
+
+.img-grid img {
     width: 300px;
     height: 200px;
     transition: transform 0.5s;
     background-size: cover;
 }
+
 .new-propose-grid .img-grid {
     overflow: hidden;
 }
@@ -205,7 +229,8 @@ hr {
 .img-grid img:hover {
     transform: scale(1.2);
 }
-.name-item{
+
+.name-item {
     margin-top: 10px;
     font-weight: bold;
     font-size: 1.4em;
@@ -216,5 +241,4 @@ hr {
     line-height: 25px;
     padding: 0 10px 10px 10px;
 }
-
 
