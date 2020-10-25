@@ -327,8 +327,10 @@ footer hr {
 .stick-button span {
     white-space: nowrap;
     display: block;
-    padding: 10px;
+    padding: 7px;
+    padding-left: 10px;
     width: 150px;
+
 }
 @media (max-width: 1645px) {
     .new-propose-grid {
@@ -342,7 +344,7 @@ footer hr {
         font-size: 5em;
     }
 
-    .description, .section-for-grid {
+    .description {
         margin: 0 100px;
     }
 
@@ -359,14 +361,14 @@ footer hr {
     .fullscreen-image h1 {
         font-size: 5em;
     }
-
-
-
     .scroll-menu {
         width: 500px;
         margin: 50px auto;
     }
-
+    .info-about-price .it{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
     .product{
         flex-direction: column;
         align-items: center;
