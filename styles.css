@@ -13,6 +13,7 @@
     Положение элемента устанавливается относительно его исходного места
      */
     position: relative;
+    margin-bottom: -10px;
 }
 
 #showroom img {
