@@ -263,6 +263,7 @@ footer a {
     margin-top: 15px;
 }
 
+
 .block-foot {
     display: flex;
     flex-direction: column;
@@ -318,8 +319,6 @@ footer hr {
 .menu-buttons:hover .movable-sticky-button {
     margin-left: 0;
 }
-
-
 .stick-button img {
     width: 27px;
     height: 27px;
@@ -330,4 +329,62 @@ footer hr {
     display: block;
     padding: 10px;
     width: 150px;
+}
+@media (max-width: 1645px) {
+    .new-propose-grid {
+        grid-template-columns: repeat(2, 300px);
+        justify-content: space-around;
+        row-gap: 50px;
+    }
+}
+@media (max-width: 1280px) {
+    #showroom h1 {
+        font-size: 5em;
+    }
+
+    .description, .section-for-grid {
+        margin: 0 100px;
+    }
+
+    .description-1 {
+        font-size: 1.8em;
+    }
+
+    .description-2 {
+        font-size: 1em;
+        line-height: 1.6em;
+    }
+}
+@media (max-width: 1280px) {
+    .fullscreen-image h1 {
+        font-size: 5em;
+    }
+
+    .main-paragraph, .section, footer {
+        margin: 0 100px;
+    }
+
+    .main-paragraph__main {
+        font-size: 1.8em;
+    }
+
+    .main-paragraph__sub {
+        font-size: 1em;
+        line-height: 1.6em;
+    }
+
+    .scroll-menu {
+        width: 500px;
+        margin: 50px auto;
+    }
+
+    .product{
+        flex-direction: column;
+        align-items: center;
+    }
+    .product img {
+        height: 250px;
+        right: 0;
+        margin-left: -300px;
+    }
 }
