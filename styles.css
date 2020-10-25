@@ -360,18 +360,7 @@ footer hr {
         font-size: 5em;
     }
 
-    .main-paragraph, .section, footer {
-        margin: 0 100px;
-    }
 
-    .main-paragraph__main {
-        font-size: 1.8em;
-    }
-
-    .main-paragraph__sub {
-        font-size: 1em;
-        line-height: 1.6em;
-    }
 
     .scroll-menu {
         width: 500px;
